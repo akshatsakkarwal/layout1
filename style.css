@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* CSS Boiler Plate */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/* Whole Page Wrapper */
+
+#main {
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(270deg, #FFDEE9 0%, #B5FFFC 100%);
+
+
+
+}
+
+/* Top Nav Section */
+
+#nav {
+    width: 100vw;
+    height: 10vh;
+    background-color: #3EECAC;
+    background-image: linear-gradient(270deg, #3EECAC 0%, #EE74E1 100%);
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+nav {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Nav Left Section */
+
+.nav-left {
+    font-size: 1.4rem;
+}
+
+/* Nav Right Section */
+
+.nav-right ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+/* Main Section */
+
+main {
+    width: 70%;
+    /* background-color: #3EECAC; */
+    margin: 0 auto;
+}
+
+.item-1 {
+    display: flex;
+    margin: 30px;
+    border-radius: 10px;
+    /* background-color: #3EECAC; */
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.item-2 {
+    display: flex;
+    margin: 30px;
+    border-radius: 10px;
+    /* background-color: #3EECAC; */
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.item-3 {
+    display: flex;
+    margin: 30px;
+    border-radius: 10px;
+    /* background-color: #3EECAC; */
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.left-section {
+    width: 50%;
+    /* background-color: #EE74E1; */
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.right-section {
+    width: 40%;
+    background-color: #EE74E1;
+    background-image: url(./Gulab-Jamun-1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.ingredients ul,
+.recipe ul {
+    list-style: none;
+}
+
+.ingredients,
+.recipe {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.item-2 .right-section {
+    background-image: url(./rabri-rabdi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.item-3 .right-section {
+    background-image: url(./milk-cake.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
